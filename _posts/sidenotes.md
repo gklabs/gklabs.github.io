@@ -63,7 +63,7 @@ acts as a one sided empirical p-value.
 ![Bootstrapping by drawing samples repeatedly and counting the number of
 times systems A and B have correctly or wrongly classified. The last 3
 columns indicate the accuracy and their
-difference](Bootstrap.png){#fig:galaxy width="14cm"}
+difference](Bootstrap.png)
 
 Illustration of concept
 =======================
@@ -123,3 +123,7 @@ References
 
 -   Fred Ramsey, Daniel Schafer, The Statistical Sleuth: A Course in
     Methods of Data Analysis, 3rd Edition
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
+
