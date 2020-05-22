@@ -1,10 +1,9 @@
 ---
 layout: page
-title: "Bootstrap Test for Comparing "
+title: "Bootstrap Test for comparing performance of text classification models"
 date: 2020-05-01
 categories: NLP ML
 
-title: 
 ---
 
 Introduction
