@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "Bootstrap Test for Comparing "
-date: 2020-05-01 19:00:00 -0000
+title: "Bootstrap Test for Comparing text classification models "
+date: 2020-05-01 19:00:00
 categories: NLP ML
-
-title: 
 ---
+<meta charset="utf-8" emacsmode="-*- markdown -*-">
 
 Introduction
 ============
@@ -73,6 +72,7 @@ Illustration of concept
 Here is a simple implementation on *python* for two classifier systems
 $A$ and $B$. The size of the bootstrap sample $n$ is 10 and we draw
 $b= 100$ such samples $x^{*(1)}$ to $x^{*(100)}$.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C
 
     def BOOTSTRAP(set_X, b): #returns p-value(x)
       d_X = np.sum(list(zip(*set_X))[0]) - np.sum(list(zip(*set_X))[1]) # how much better does algorithm A do than B on x
@@ -114,6 +114,7 @@ $b= 100$ such samples $x^{*(1)}$ to $x^{*(100)}$.
 
     #Testing bootstrap
     print(BOOTSTRAP(create_Input(real, A, B), b))
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 References
 ==========
@@ -124,4 +125,10 @@ References
     16, 2019.
 
 -   Fred Ramsey, Daniel Schafer, The Statistical Sleuth: A Course in
-    Methods of Data Analysis, 3rd Edition
+    Methods of Data Analysis, 3rd 
+
+<link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/latex.css?">
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
+
