@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Bootstrap test for comparing text classification models"
 date: 2020-05-01 19:00:00
 categories: NLP ML
@@ -31,7 +31,7 @@ Concept explanation
 The word *bootstrap* refers to the process of drawing repeated samples
 from a given set. Given a text classification problem and say we want to
 compare the performance of two classifiers $A$ and $B$ on a validation
-set \\( X_v\\) containing \\(n\\) elements, we start by defining our null and
+set \\( X_v \\) containing \\(n\\) elements, we start by defining our null and
 alternate hypotheses on the difference in performance between A and B,
 $\delta(X_v)$ as follows:
 $$H_0: \delta(X_v) = 0$$
