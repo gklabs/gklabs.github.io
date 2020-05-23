@@ -1,10 +1,12 @@
 ---
 layout: page
-title: "Bootstrap Test for Comparing text classification models "
+title: "Bootstrap test for comparing text classification models"
 date: 2020-05-01 19:00:00
 categories: NLP ML
 ---
-
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 Introduction
 ============
@@ -129,6 +131,6 @@ References
 
 
 
-<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
 
 
