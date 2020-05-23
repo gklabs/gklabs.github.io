@@ -1,13 +1,10 @@
 ---
-layout: page
+layout: post
 title: "Bootstrap test for comparing text classification models"
 date: 2020-05-01 19:00:00
 categories: NLP ML
 useMath: true
 ---
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 Introduction
 ============
