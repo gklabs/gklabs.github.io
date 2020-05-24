@@ -33,8 +33,11 @@ compare the performance of two classifiers $A$ and $B$ on a validation
 set \\( X_v \\) containing \\(n\\) elements, we start by defining our null and
 alternate hypotheses on the difference in performance between A and B,
 $\delta(X_v)$ as follows:
-$$H_0: \delta(X_v) = 0$$
-$$H_1: \delta(X_v) > 0$$
+
+$$ 
+H_0: \delta(X_v) = 0
+H_1: \delta(X_v) > 0
+$$
 
 If the performance of $A$ is the same as $B$ then *we fail to reject the
 null hypothesis* that $\delta(X_v) = 0$. If one of the classifiers have
