@@ -35,7 +35,7 @@ alternate hypotheses on the difference in performance between A and B,
 $\delta(X_v)$ as follows:
 
 $$ 
-H_0: \delta(X_v) = 0
+H_0: \delta(X_v) = 0 \\
 H_1: \delta(X_v) > 0
 $$
 
