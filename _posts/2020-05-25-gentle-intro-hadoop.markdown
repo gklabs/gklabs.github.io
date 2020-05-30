@@ -3,6 +3,7 @@ layout: post
 title: "A gentle introduction to Hadoop"
 date: 2020-05-25 19:00:00
 categories: Big Data Hadoop
+---
 
 Introduction
 ====================
