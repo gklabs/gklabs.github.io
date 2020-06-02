@@ -78,7 +78,7 @@ Illustration of concept
 
 Here is a simple implementation on *python* for two classifier systems
 $A$ and $B$. The size of the bootstrap sample $n$ is 10 and we draw
-$b= 100$ such samples $x^{*(1)}... x^{*(100)}$.
+$b= 100$ such samples $x^{(1)}... x^{(100)}$.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C
 
     def BOOTSTRAP(set_X, b): #returns p-value(x)
