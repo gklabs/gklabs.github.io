@@ -17,10 +17,16 @@ Consider the following facts:
 * Humans generate a lot of data.
 * 95% of the new data was generated between 
 
-We can characterize Big data by the following features.
-* Volume
-* Velocity
-* Variety
+<image> </image>
+
+As data storage technology improved, so did the we start to store all kinds of data- logs, text, video, audio, images.
+
+To summarise, we characterize Big data by the following features.
+* Volume- The quantity of the generated data.
+* Velocity- The speed at which data is generated and processed to meet the demands.
+* Variety- The type and nature of data
+
+We also talk about _veracity_ indicating the quality of the data captured.
 
 Data is knowledge and knowledge is wealth. If Machine learning models are a vehicle, then the fuel that drives the vehicle is data. Thus there is a need to build a cheap and efficient file system architecture that can help in fast accessibility and retrieval of data. Hadoop is one such architecture.
 
@@ -33,7 +39,6 @@ Two months later Abe wants 20 sacks of rice from the godown to make rice noodles
 
 What is HDFS?
 ==================
-
 
 
 Hadoop File System has 5 components or services under 2 main categories of functions.
@@ -51,7 +56,10 @@ Hadoop File System has 5 components or services under 2 main categories of funct
 The Mapreduce algorithm
 ======================
 
-Map
+In 2004, Google came up with the mapreduce algorithm to effectively process queries on large data repositories
+Map:
+
+
 
 Reduce
 
