@@ -64,15 +64,14 @@ the number of times $\delta(x^{*(i)}) > 2\delta(X_v)$. This count is the
 number of times $A$ has an accidental advantage over $B$. The ratio then
 acts as a one sided empirical p-value.
 
-![Bootstrapping by drawing samples repeatedly and counting the number of
-times systems A and B have correctly or wrongly classified. The last 3
-columns indicate the accuracy and their
-difference](Bootstrap.png){#fig:galaxy width="14cm"}
+
 
 ![Bootstrapping by drawing samples repeatedly and counting the number of
 times systems A and B have correctly or wrongly classified. The last 3
 columns indicate the accuracy and their
-difference](/Users/gkbytes/gklabs.github/_posts/Bootstrap.png){:class="img-responsive"}
+difference](/assets/Bootstrap.png){:class="img-responsive"}
+
+
 
 Illustration of concept
 =======================
