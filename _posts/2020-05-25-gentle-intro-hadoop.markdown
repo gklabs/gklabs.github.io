@@ -17,7 +17,8 @@ Consider the following facts:
 * Humans generate a lot of data.
 * 95% of the new data was generated between 
 
-<image> </image>
+![Information growth](/assets/Hilbert_InfoGrowth.png){:class="img-responsive"}
+
 
 As data storage technology improved, so did the we start to store all kinds of data- logs, text, video, audio, images.
 
@@ -34,7 +35,8 @@ Bob and the magic godown: An anology
 =================
 Consider farmer Abe cultivating rice and has a storage space in his house to store his yield. But the storage space is enough just to store yield of 100 sacks while on a good year he can end up with a yield more than 300 to 500 sacks. He would now have to approach the magic godown whose owner Bob is a friend to store the excess yield. Bob maintains a book with the details of room capacity and a team of elves in charge of each of the rooms in the godown. He offers to store all of Abe's yield. The magic in the godown is that it can create 2 replicas of the stock that is brought to it.
 
-Two months later Abe wants 20 sacks of rice from the godown to make rice noodles and he goes to the godown. Bob knowing that the godown is capable of magic, asks for the recipe for the rice noodles and gives it to the godown elves.The godown elves *apply* the recipe to the sacks of rice placed at different rooms individually and ask the elder elf to combine all of the rice noodles into a single container. The rice noodle is combined and shipped to Abe. 
+Two months later Abe wants 20 sacks of rice from the godown to make rice noodles and he goes to the godown. Bob knowing that the godown is capable of magic, asks for the recipe for the rice noodles and gives it to the godown elves.The godown elves *apply* the recipe to the sacks of rice placed at different rooms individually and ask the elder elf to combine all of the rice noodles into a single container. The rice noodle is combined and shipped to Abe.
+
 
 
 What is HDFS?
