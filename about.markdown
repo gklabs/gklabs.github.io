@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello!
+Hello 👋🏽
 
 I am Giridhar Kaushik Ramachandran. I am currently a doctoral researcher in Information Sciences and Technology at [George Mason University](https://www2.gmu.edu/). I received my Bachelor of Science Honors degree in Mathematics in 2012 and Master in Business Administration degree in 2014 from the [Sri Sathya Sai Institute of Higher Learning](https://www.sssihl.edu.in/), India. I have over 4 years of diverse experience as a data scientist in the fields of finance, human resource management and education. I am interested in the applications of machine learning, optimization and statistics in cybersecurity, health and social media.
 
