@@ -72,9 +72,7 @@ Based on the analogy, lets go through the sequence of steps of storing and retri
 1. The cluster stores data in _blocks_. Blocks are the smallest unit of data in HDFS. Each block have a size of 64 MB. HDFS tries to place each block (of the given data) on separate nodes(data nodes). The file creation process uses a _staging mechanism_ where the data to be written to HDFS is temporarily stored locally until enough data accumulates for a block. Once that accumulation is complete the Name node _commits_ the data to be written to disk.
 
 
-
 ![HDFS heartbeat process. Image from IBM's developer blog](/assets/heartbeat.jpg){:class="img-responsive"}
-
 
 
 
