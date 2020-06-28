@@ -7,13 +7,12 @@ categories: Big Data Hadoop
 status: completed
 
 
-Introduction
-====================
+## Introduction
+
 
 This article aims to simplify and make Hadoop less cooler by understanding the overall purpose and working of a file system. We will first discuss why we care about Big Data and why need a file system to store the large amounts of data that is generated. We will then discuss a simple analogy for hadoop to understand the overall idea behind it, followed by explaining the individual components in HDFS.
 
-Why do we care about Big Data ?
-==========================
+### Why do we care about Big Data ?
 
 Consider the following facts:
 * Humans and human created systems generate a lot of data.
@@ -34,15 +33,15 @@ We also talk about _veracity_ indicating the quality of the data captured.
 
 Data is knowledge and knowledge is wealth. If Machine learning models are a vehicle, then the fuel that drives the vehicle is data. Thus there is a need to build a cheap and efficient file system architecture that can help in fast accessibility and retrieval of data. Hadoop is one such architecture.
 
-Bob and the magic godown: An anology for Hadoop
-=================
+### Bob and the magic godown: An anology for Hadoop
+
 Consider farmer Abe cultivating rice and has a storage space in his house to store his yield. But the storage space is enough just to store yield of 100 sacks while on a good year he can end up with a yield more than 300 to 500 sacks. He would now have to approach the magic godown whose owner Bob is a friend to store the excess yield. Bob maintains a book with the details of room capacity and a team of elves in charge of each of the rooms in the godown. He offers to store all of Abe's yield. The magic in the godown is that it can create 2 replicas of the stock that is brought to it. This is because Bob knows that his team of elves can sometimes be inefficient and therefore makes multiple copies of the stock.
 
 Two months later Abe wants 20 sacks of rice from the godown to make rice noodles and he goes to the godown. Bob knowing that the godown is capable of magic, *asks* for the recipe for the rice noodles and gives it to the godown elves. The godown elves *apply* the recipe to the sacks of rice placed at different rooms individually and ask the elder elf to combine all of the rice noodles into a single container. The rice noodle is combined and shipped to Abe.
 
 
-What is HDFS?
-==================
+## What is HDFS?
+
 
 HDFS or Hadoop File System lets you store large amounts of data (read petabytes, zetabytes) on a scaleable and cost-efficient collection of nodes (cluster of consumer computers AKA commodity hardware). Hadoop is designed to prevent data loss while also being efficient at providing fast access to data.
 
@@ -58,7 +57,7 @@ Hadoop File System has 5 components or services under 2 main categories of funct
 	* Data node: Commodity hardware nodes which provide storage. Data nodes send _heartbeat_ to Name node indicating their functioning status. The interval for these heartbeats vary but is usually in the range of 3 seconds.
 	* Task tracker
 
-## Process overview
+### Process overview
 Based on the analogy, lets go through the sequence of steps of storing and retrieving data from the Hadoop File System.
 
 1. For instance consider a file that includes phone numbers of everyone in the world entered alphabetically; The numbers of alphabet 'A' are stored on server 1 and 'B' on server 2 etc.
@@ -76,8 +75,8 @@ Based on the analogy, lets go through the sequence of steps of storing and retri
 
 
 
-The Mapreduce algorithm
-======================
+## The Mapreduce algorithm
+
 
 In 2004, Google came up with the MapReduce algorithm to effectively process queries on large data repositories. It enables scalability across large Hadoop clusters. The MapReduce paradigm is a collection of two separate distinct tasks that programs perform. 
 * Map: This job takes in a set of data and converts it into another set of intermediate data. Data is stored as key-value pairs.
