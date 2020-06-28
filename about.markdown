@@ -11,4 +11,6 @@ I am Giridhar Kaushik Ramachandran. I am currently a doctoral researcher in Info
 * [Resumé](https://drive.google.com/file/d/191DO71AUbSeYKx2S8y8P2_RMp9i9RJs1/view?usp=sharing)
 * [Research Statement](https://drive.google.com/file/d/1x1fgAZkvRdBz5cz4alQN3Gjh2kWgMbW0/view?usp=sharing)
 
+Find me on twitter @gkbytes.
+
 
