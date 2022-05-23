@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: wedding <3
+permalink: /wedding/
 ---
 
 Hello friends* 👋🏽
@@ -38,15 +38,16 @@ x= Visa stamping availbility provided by the consulate in India
 y= USCIS's efficiency in sending your paperwork in time
 
 Now, x and y, took over all of our sanity and made planning period literally, five days. So here we are.
-If you want to know more about x and y, see here and here. 
+If you want to know more about x and y, see here and here.
 
 Moving on, if you are interested in our story- how we met, blah blah- written in half-romantic, half-academic style, see below.
 
 ## Our Story
-============
+
+
 
 ## Epilogue
-============
+
 You are probably like wow gk! I am excited for you guys!! What do I do now?
 
 Here are some logistics
