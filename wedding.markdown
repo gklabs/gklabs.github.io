@@ -34,7 +34,7 @@ Both Haritha and Giridhar like going out to play sports and 'try' to hit the gym
 
 ## Gallery
 
-![Recently, about a month ago](/assets/p1.jpg){:class="img-responsive"}
+![Recently, about a month ago](/p1.jpg){:class="img-responsive"}
 
 ![Few months ago](/assets/p2.jpg){:class="img-responsive"}
 
