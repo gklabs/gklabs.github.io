@@ -21,9 +21,7 @@ YESS!! I am really excited, tensed, and tiredd at the same time. As I write this
 
 ## Our Story in lazy Q&A
 
-* **Where did you guys meet?**
-
-We met in college and took same classes :)
+* **Where did you guys meet?** We met in college and took same classes :)
 
 * **What is the maplai/abbaayi and ponnu/ammayi doing ?**
 
@@ -50,18 +48,18 @@ You are probably like, wow! I am excited for you guys!! What do I do now? Here a
 You can witness the wedding celebrations and send in your best wishes, in two ways.
 
 * **In person** - if you are able to travel to Chennai on 26-27 May. This is the [wedding hall](https://goo.gl/maps/8L4FubmBxvCrftscA).
-* **Web Stream** - We have set-up a live stream of the two-day event and here is the link. The events start on the 8am IST 26th May. Here is when we will be live.
+* **Web Stream** - We have set-up a live stream of the two-day event up in the first section. The events start on the 8am IST 26th May. Here is when we will be live.
 
 Here are the events planned-
 
-*26th May 2021*
+*26th May 2022*
 
 * Session-1 8 am to 12.30 pm
   * 8.00 am - 10.30 am Prayers to the ancestors
   * 11.30 am - 12.30 pm Exchanging rings
   * 6.30 pm - 8.30 pm Reception (live streamed)
 
-*27th May 2021*
+*27th May 2022*
 
 * Session- 1 (live streamed)
   * 7.30 am - 9.30 am Oonjal and other fun ceremonies
@@ -75,11 +73,14 @@ Fin
 
 ## Frequntly Asked Questions
 
-* I want to send a gift to Giridhar and Haritha. I am attending virtually. What should I do?
+* **I want to send a gift to Giridhar and Haritha. I am attending virtually. What should I do?**
+
   We appreciate you wanting to contribute and be a part of the lives we are going to build for ourselves. Thank you so much <3
   * If you are located in the US,  
-    * just buy us as an amazon dot com gift card for the money you want to send us. We will send you a thank you mail and tell you what we did with it and send you a picture of us posing along :D This is my email- reachgknow@gmail.com.
+    * just buy us as an amazon dot com gift card for the money you want to send us. We will send you a thank you mail and tell you what we did with it and send you a picture of us posing along :D This is our email- reachgknow@gmail.com.
 
   * If you are located in India, you may upi to *9841532352@sbi* :)
 
+* **I want to get in touch with you guys. How?**
 
+If you have our phone numbers, do send us a message. We read emails religiously and reply to them. This is our email-  reachgknow@gmail.com
