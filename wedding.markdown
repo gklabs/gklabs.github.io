@@ -21,15 +21,17 @@ YESS!! I am really excited, tensed, and tiredd at the same time. As I write this
 
 ## Our Story in lazy Q&A
 
-* Where did you guys meet?
-We met in college and took some same classes :)
+* **Where did you guys meet?**
+
+We met in college and took same classes :)
 
 * **What is the maplai/abbaayi and ponnu/ammayi doing ?**
+
 Giridhar graduated his Masters in Operations Research from George Mason University and is currently pursuing his final year of Ph.D. in Medical Informatics there.
-Haritha graduated her masters in Data Analytics Engineering from Mason and is currently a Senior Consultant at CGI.
-They are located in the DMV area in east coast, USA.
+Haritha graduated her masters in Data Analytics Engineering from Mason and is currently a Senior Consultant at CGI. They are located in the DMV area in east coast, USA.
 
 * **What are their interests?**
+
 Both Haritha and Giridhar like going out to play sports and 'try' to hit the gym. Both of them like to play games on their PC (League of Legends, It takes Two, COD are some of their favorites) and watch movies every now and then. We are almost caught up the the new twitch meta
 
 ## Gallery
@@ -40,7 +42,7 @@ Both Haritha and Giridhar like going out to play sports and 'try' to hit the gym
 
 ![while in Geoegetown waterfront, DC, recently](/assets/p5.jpg){:class="img-responsive"}
 
-![Earliest picture back in 2018, at a dingy mall](/assets/p4.png){:class="img-responsive"}
+![Earliest picture back in 2018, at a dingy mall](/assets/p4.jpg){:class="img-responsive"}
 
 ## Epilogue
 
@@ -72,12 +74,6 @@ Here are the events planned-
 Fin
 
 ## Frequntly Asked Questions
-
-* I want to be part of the chatter. Can we like have a place to roast Giridhar and adore Haritha?
-  * Whatsapp- invite link.
-    * What to expect- Some amateur video spam, photo spam, and 'best wishes to the couple' messages
-    * you consent to share your phone number with strangers you may not know.
-    * simple but ok.
 
 * I want to send a gift to Giridhar and Haritha. I am attending virtually. What should I do?
   We appreciate you wanting to contribute and be a part of the lives we are going to build for ourselves. Thank you so much <3
