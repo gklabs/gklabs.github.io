@@ -25,6 +25,7 @@ Consider the following facts:
 As data storage technology improved, so did the we start to store all kinds of data- logs, text, video, audio, images.
 
 To summarise, we characterize Big data by the following features.
+
 * Volume- The quantity of the generated data.
 * Velocity- The speed at which data is generated and processed to meet the demands.
 * Variety- The type and nature of data
