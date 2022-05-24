@@ -25,8 +25,8 @@ YESS!! I am really excited, tensed, and tiredd at the same time. As I write this
 We met in college and took some same classes :)
 
 * **What is the maplai/abbaayi and ponnu/ammayi doing ?**
-Giridhar graduated his Masters in Operations Research from George Mason university and is currently pursuing his final year of Ph.D. in Medical Informatics there.
-Haritha graduated her masters in Data Analytics Engineering and is currently a Senior Consultant at CGI. 
+Giridhar graduated his Masters in Operations Research from George Mason University and is currently pursuing his final year of Ph.D. in Medical Informatics there.
+Haritha graduated her masters in Data Analytics Engineering from Mason and is currently a Senior Consultant at CGI.
 They are located in the DMV area in east coast, USA.
 
 * **What are their interests?**
@@ -84,4 +84,6 @@ Fin
   * If you are located in the US,  
     * just buy us as an amazon dot com gift card for the money you want to send us. We will send you a thank you mail and tell you what we did with it and send you a picture of us posing along :D This is my email- reachgknow@gmail.com.
 
-  * If you are located in India, you may upi to 9841532352@sbi :)
+  * If you are located in India, you may upi to *9841532352@sbi* :)
+
+
