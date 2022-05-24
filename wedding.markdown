@@ -2,7 +2,6 @@
 layout: page
 title: wedding <3
 permalink: /wedding/
-
 ---
 
 Hello friends 👋🏽
@@ -18,30 +17,30 @@ I am getting married!! To my best friend from college, Haritha.
 
 ## Sooo Happpyy but why so late??
 
-YESS!! I am really excited, tensed, and tiredd at the same time. As I write this it is 3 am IST and I have jumped from one task after the other without completing any of them well. *'Why is this marriage date appearing in front of me x hours before the D-day?'* Yes. This is last minute. Nobody does a wedding like this. Let me explain why.Haritha and I decided to get married in Chennai, India and were considering dates for 2022 in Feb this year. However, we had to squeeze the entire planning to a week due to uncertainty in visa stamping appointments. I hope you will celebrate this occasion with us even in this short notice.
+YESS!! I am really excited, tensed, and tiredd at the same time. As I write this it is 3 am IST and I have jumped from one task after the other without completing any of them well. *'Why is this marriage date appearing in front of me x hours before the D-day?'* Yes. This is last minute. Nobody does a wedding like this. Let me explain why. Haritha and I decided to get married in Chennai, India and were considering dates for 2022 in Feb this year. However, we had to squeeze the entire planning to a week due to uncertainty in visa stamping appointments. I hope you will celebrate this occasion with us even in this short notice.
 
 ## Our Story in lazy Q&A
 
 * Where did you guys meet?
 We met in college and took some same classes :)
 
-* What is the maplai/abbaayi and ponnu/ammayi doing ?
+* **What is the maplai/abbaayi and ponnu/ammayi doing ?**
 Giridhar graduated his Masters in Operations Research from George Mason university and is currently pursuing his final year of Ph.D. in Medical Informatics there.
 Haritha graduated her masters in Data Analytics Engineering and is currently a Senior Consultant at CGI. 
 They are located in the DMV area in east coast, USA.
 
-* What are their interests?
+* **What are their interests?**
 Both Haritha and Giridhar like going out to play sports and 'try' to hit the gym. Both of them like to play games on their PC (League of Legends, It takes Two, COD are some of their favorites) and watch movies every now and then. We are almost caught up the the new twitch meta
 
 ## Gallery
 
-![Recently, about a month ago](assets/p1.jpg){:class="img-responsive"}
+![Recently, about a month ago](/assets/p1.jpg){:class="img-responsive"})
 
-![Few months ago](/assets/p2.jpg){:class="img-responsive"}
+![Few months ago](/assets/p2.jpg){:class="img-responsive"})
 
-![Earliest picture back in 2018](/assets/p4.png){:class="img-responsive"}
+![while in Geoegetown waterfront, DC, recently](/assets/p5.jpg){:class="img-responsive"}
 
-![while in DC](/assets/p5.jpg){:class="img-responsive"}
+![Earliest picture back in 2018, at a dingy mall](/assets/p4.png){:class="img-responsive"}
 
 ## Epilogue
 
