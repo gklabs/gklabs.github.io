@@ -127,12 +127,12 @@ $b= 100$ such samples $x^{(1)}... x^{(100)}$.
 References
 ==========
 
--   Daniel Jurafsky, James H. Martin, Speech and Language Processing: An
+-  Daniel Jurafsky, James H. Martin, Speech and Language Processing: An
     Introduction to Natural Language Processing, Computational
     Linguistics, and Speech Recognition; Third Edition draft Oct
     16, 2019.
 
--   Fred Ramsey, Daniel Schafer, The Statistical Sleuth: A Course in
+-  Fred Ramsey, Daniel Schafer, The Statistical Sleuth: A Course in
     Methods of Data Analysis, 3rd 
 
 

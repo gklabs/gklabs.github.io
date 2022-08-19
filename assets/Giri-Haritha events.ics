@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220524T221947Z
+UID:1653429958241-22349@ical.marudot.com
+DTSTART;TZID=Asia/Calcutta:20220526T183000
+DTEND;TZID=Asia/Calcutta:20220526T200000
+SUMMARY:Giri-Haritha reception
+URL:https://bit.ly/3Nxb5EV
+DESCRIPTION:6.30 pm - 8.30 pm Reception (live streamed)\nWatch first half hour and let it run on the background after that
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20220524T221947Z
+UID:1653430237709-47293@ical.marudot.com
+DTSTART;TZID=Asia/Calcutta:20220527T073000
+DTEND;TZID=Asia/Calcutta:20220527T123000
+SUMMARY:Giri-Haritha Wedding Ceremony
+URL:https://bit.ly/3wMItka
+DESCRIPTION:Session- 1 (live streamed)\n7.30 am - 9.30 am Oonjal and other fun ceremonies (first 2 hours. Skip if bored)\n9.30 am - 10.30 am- Muhurtham - Tying the sacred knot and walking around the pyre (Dont miss!!!)\n\n10.30- 12.30 pm (ish)- More prayers (you may expect some candid photography )\nSession -2 (no livestream)\n4.30 pm - 5.30 pm ish- Nalangu ( traditional wedding games b/w couple)\n6 pm - 7 pm - Prayers
+END:VEVENT
+END:VCALENDAR
