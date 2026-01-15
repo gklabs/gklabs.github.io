@@ -76,24 +76,41 @@ body.dark-mode {
     border-top-color: #3a3a5a;
     color: #9a9a9a;
   }
+
+  .site-header {
+    border-bottom-color: #3a3a5a;
+  }
+}
+
+/**
+ * Header wrapper
+ */
+.header-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 50px;
+}
+
+.header-spacer {
+  flex: 1;
 }
 
 /**
  * Theme toggle button
  */
 .theme-toggle {
-  float: right;
-  margin-top: 10px;
   background: transparent;
-  border: 2px solid $grey-color-light;
+  border: 1px solid $grey-color-light;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  padding: 0;
 
   svg {
     fill: $grey-color;
