@@ -17,15 +17,97 @@
 .profile-name {
   @include relative-font-size(2);
   margin-bottom: $spacing-unit / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: inline-flex;
+  gap: 10px;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    color: $grey-color;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $brand-color;
+    }
+
+    svg {
+      fill: currentColor;
+    }
+  }
 }
 
 .profile-bio {
-  @include relative-font-size(1.1);
+  @include relative-font-size(1.05);
   color: $grey-color-dark;
   max-width: 700px;
   margin: 0 auto $spacing-unit / 2;
-  line-height: 1.6;
+  line-height: 1.7;
   text-align: left;
+}
+
+/**
+ * Timeline
+ */
+.timeline {
+  max-width: 700px;
+  margin: $spacing-unit * 2 auto 0;
+}
+
+.timeline-entry {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: $spacing-unit * 0.8;
+  padding-bottom: $spacing-unit * 0.8;
+  border-bottom: 1px solid $grey-color-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.timeline-date {
+  flex: 0 0 170px;
+  font-weight: 600;
+  color: $grey-color;
+  @include relative-font-size(0.9);
+  padding-right: $spacing-unit;
+
+  @include media-query($on-palm) {
+    margin-bottom: 6px;
+    padding-right: 0;
+  }
+}
+
+.timeline-content {
+  flex: 1;
+  line-height: 1.6;
+  @include relative-font-size(0.95);
+
+  strong {
+    color: $text-color;
+  }
+
+  a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 /**
@@ -138,6 +220,13 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  text-align: center;
+}
+
+.footer-text {
+  color: $grey-color;
+  @include relative-font-size(0.9);
+  margin: 0;
 }
 
 .footer-heading {

@@ -26,6 +26,115 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/**
+ * Dark mode
+ */
+body.dark-mode {
+  background-color: #1a1a2e;
+  color: #e4e4e4;
+
+  a {
+    color: #6db3f2;
+
+    &:visited {
+      color: #9dc4e8;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .profile-bio {
+    color: #c4c4c4;
+  }
+
+  .timeline-date {
+    color: #9a9a9a;
+  }
+
+  .timeline-content strong {
+    color: #e4e4e4;
+  }
+
+  .timeline-entry {
+    border-bottom-color: #3a3a5a;
+  }
+
+  .social-icons a {
+    color: #9a9a9a;
+
+    &:hover {
+      color: #6db3f2;
+    }
+  }
+
+  .site-footer {
+    border-top-color: #3a3a5a;
+    color: #9a9a9a;
+  }
+}
+
+/**
+ * Theme toggle button
+ */
+.theme-toggle {
+  float: right;
+  margin-top: 10px;
+  background: transparent;
+  border: 2px solid $grey-color-light;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  svg {
+    fill: $grey-color;
+    transition: fill 0.3s ease;
+  }
+
+  .moon-icon {
+    display: none;
+  }
+
+  &:hover {
+    border-color: $brand-color;
+
+    svg {
+      fill: $brand-color;
+    }
+  }
+}
+
+body.dark-mode .theme-toggle {
+  border-color: #5a5a7a;
+
+  svg {
+    fill: #9a9a9a;
+  }
+
+  .sun-icon {
+    display: none;
+  }
+
+  .moon-icon {
+    display: block;
+  }
+
+  &:hover {
+    border-color: #6db3f2;
+
+    svg {
+      fill: #6db3f2;
+    }
+  }
 }
 
 

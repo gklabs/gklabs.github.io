@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Giridhar K
+title: ""
 email: gramacha at gmu dot edu
 description: >- # this means to ignore newlines until "baseurl:"
 
@@ -31,6 +31,9 @@ github_username:  gklabs
 theme: minima
 plugins:
   - jekyll-feed
+
+# Hide navigation pages (keep files but don't show in nav)
+header_pages: []
 
 # Exclude from processing.
 # The following items will not be processed, by default.
