@@ -3,33 +3,16 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <div class="profile">
+    <img src="{{ '/assets/images/gk_photo.jpeg' | relative_url }}" alt="Giridhar Kaushik" class="profile-photo">
+    <h1 class="profile-name">Giridhar Kaushik Ramachandran</h1>
+    <p class="profile-bio">
+      Giridhar received his Ph.D. in Information Science and Technology from George Mason University (GMU), with a focus on natural language processing (NLP) and machine learning (ML) for clinical text. They are also an affiliate with the University of Washington, collaborating on various NLP and ML projects for healthcare applications.
+    </p>
+    <p class="profile-bio">
+      With over nine years of diverse industry and academic experience, Giridhar has worked as a data scientist in the fields of finance, workforce management, cybersecurity, and social media. They have also published multiple papers in prestigious conferences and journals, such as ICML, ACL, LREC, and IEEE Computer Society, demonstrating their research excellence and innovation. Giridhar's research aims to leverage artificial intelligence to advance state-of-the-art healthcare informatics and improve patient outcomes.
+    </p>
+  </div>
 
   {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-    
-  {%- endif -%}
-
 </div>

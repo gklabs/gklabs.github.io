@@ -1,4 +1,34 @@
 /**
+ * Profile section
+ */
+.profile {
+  text-align: center;
+  margin-bottom: $spacing-unit * 2;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: $spacing-unit;
+}
+
+.profile-name {
+  @include relative-font-size(2);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.profile-bio {
+  @include relative-font-size(1.1);
+  color: $grey-color-dark;
+  max-width: 700px;
+  margin: 0 auto $spacing-unit / 2;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/**
  * Site header
  */
 .site-header {
