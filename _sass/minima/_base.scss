@@ -92,20 +92,49 @@ body.dark-mode {
     }
 
     li {
+      color: #c4c4c4;
       border-bottom-color: #3a3a5a;
+    }
+
+    strong {
+      color: #e4e4e4;
     }
 
     em {
       color: #e4e4e4;
+    }
+
+    a {
+      color: #6db3f2;
+
+      &:visited {
+        color: #9dc4e8;
+      }
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
   .nav-link {
     color: #9a9a9a;
 
+    &:visited {
+      color: #9a9a9a;
+    }
+
     &:hover {
       color: #6db3f2;
     }
+  }
+
+  .profile-name {
+    color: #e4e4e4;
+  }
+
+  .timeline-content {
+    color: #c4c4c4;
   }
 }
 
