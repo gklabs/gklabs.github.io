@@ -101,25 +101,25 @@ body.dark-mode {
     }
 
     a {
-      color: #7ec8f7;
+      color: #fff;
 
       em {
-        color: #7ec8f7;
+        color: #fff;
       }
 
       &:visited {
-        color: #7ec8f7;
-
-        em {
-          color: #7ec8f7;
-        }
-      }
-
-      &:hover {
         color: #fff;
 
         em {
           color: #fff;
+        }
+      }
+
+      &:hover {
+        color: #6db3f2;
+
+        em {
+          color: #6db3f2;
         }
       }
     }
