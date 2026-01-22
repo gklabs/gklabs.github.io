@@ -31,6 +31,7 @@ github_username:  gklabs
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Hide navigation pages (keep files but don't show in nav)
 header_pages: []
