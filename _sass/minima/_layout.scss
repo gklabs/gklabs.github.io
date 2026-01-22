@@ -140,12 +140,6 @@
     @include relative-font-size(0.9);
     line-height: 1.6;
     margin-bottom: $spacing-unit * 0.6;
-    padding-bottom: $spacing-unit * 0.6;
-    border-bottom: 1px solid $grey-color-light;
-
-    &:last-child {
-      border-bottom: none;
-    }
   }
 
   em {

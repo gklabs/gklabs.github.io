@@ -93,26 +93,34 @@ body.dark-mode {
 
     li {
       color: #c4c4c4;
-      border-bottom-color: #3a3a5a;
+      border-bottom: none;
     }
 
     strong {
       color: #e4e4e4;
     }
 
-    em {
-      color: #e4e4e4;
-    }
-
     a {
-      color: #6db3f2;
+      color: #7ec8f7;
+
+      em {
+        color: #7ec8f7;
+      }
 
       &:visited {
-        color: #9dc4e8;
+        color: #7ec8f7;
+
+        em {
+          color: #7ec8f7;
+        }
       }
 
       &:hover {
         color: #fff;
+
+        em {
+          color: #fff;
+        }
       }
     }
   }
