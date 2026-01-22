@@ -111,6 +111,49 @@
 }
 
 /**
+ * Publications
+ */
+.publications {
+  max-width: 700px;
+  margin: $spacing-unit * 2 auto 0;
+
+  h2 {
+    @include relative-font-size(1.5);
+    margin-bottom: $spacing-unit;
+    border-bottom: 2px solid $grey-color-light;
+    padding-bottom: $spacing-unit / 2;
+  }
+
+  h3 {
+    @include relative-font-size(1.1);
+    color: $grey-color;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  li {
+    @include relative-font-size(0.9);
+    line-height: 1.6;
+    margin-bottom: $spacing-unit * 0.6;
+    padding-bottom: $spacing-unit * 0.6;
+    border-bottom: 1px solid $grey-color-light;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  em {
+    color: $text-color;
+  }
+}
+
+/**
  * Site header
  */
 .site-header {
