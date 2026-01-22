@@ -80,6 +80,33 @@ body.dark-mode {
   .site-header {
     border-bottom-color: #3a3a5a;
   }
+
+  .publications {
+    h2 {
+      color: #e4e4e4;
+      border-bottom-color: #3a3a5a;
+    }
+
+    h3 {
+      color: #9a9a9a;
+    }
+
+    li {
+      border-bottom-color: #3a3a5a;
+    }
+
+    em {
+      color: #e4e4e4;
+    }
+  }
+
+  .nav-link {
+    color: #9a9a9a;
+
+    &:hover {
+      color: #6db3f2;
+    }
+  }
 }
 
 /**
@@ -94,6 +121,23 @@ body.dark-mode {
 
 .header-spacer {
   flex: 1;
+}
+
+.nav-link {
+  color: $grey-color;
+  text-decoration: none;
+  @include relative-font-size(0.95);
+  font-weight: 500;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $grey-color;
+  }
 }
 
 /**
