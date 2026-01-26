@@ -4,6 +4,10 @@
 .profile {
   text-align: center;
   margin-bottom: $spacing-unit * 2;
+
+  @include media-query($on-palm) {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .profile-photo {
@@ -12,6 +16,12 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: $spacing-unit;
+
+  @include media-query($on-palm) {
+    width: 140px;
+    height: 140px;
+    margin-bottom: $spacing-unit * 0.6;
+  }
 }
 
 .profile-name {
@@ -22,6 +32,12 @@
   justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
+
+  @include media-query($on-palm) {
+    @include relative-font-size(1.6);
+    margin-bottom: $spacing-unit / 3;
+    gap: 8px;
+  }
 }
 
 .social-icons {
@@ -51,6 +67,12 @@
   margin: 0 auto $spacing-unit / 2;
   line-height: 1.7;
   text-align: left;
+
+  @include media-query($on-palm) {
+    @include relative-font-size(0.95);
+    margin-bottom: $spacing-unit / 3;
+    line-height: 1.6;
+  }
 }
 
 /**
@@ -59,6 +81,10 @@
 .timeline {
   max-width: 700px;
   margin: $spacing-unit * 2 auto 0;
+
+  @include media-query($on-palm) {
+    margin-top: $spacing-unit;
+  }
 }
 
 .timeline-entry {
@@ -75,6 +101,8 @@
   @include media-query($on-palm) {
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: $spacing-unit * 0.5;
+    padding-bottom: $spacing-unit * 0.5;
   }
 }
 
@@ -117,11 +145,21 @@
   max-width: 700px;
   margin: $spacing-unit * 2 auto 0;
 
+  @include media-query($on-palm) {
+    margin-top: $spacing-unit;
+  }
+
   h2 {
     @include relative-font-size(1.5);
     margin-bottom: $spacing-unit;
     border-bottom: 2px solid $grey-color-light;
     padding-bottom: $spacing-unit / 2;
+
+    @include media-query($on-palm) {
+      @include relative-font-size(1.3);
+      margin-bottom: $spacing-unit * 0.6;
+      padding-bottom: $spacing-unit / 3;
+    }
   }
 
   h3 {
@@ -129,6 +167,12 @@
     color: $grey-color;
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit / 2;
+
+    @include media-query($on-palm) {
+      @include relative-font-size(1);
+      margin-top: $spacing-unit * 0.6;
+      margin-bottom: $spacing-unit / 3;
+    }
   }
 
   ul {
@@ -140,6 +184,11 @@
     @include relative-font-size(0.9);
     line-height: 1.6;
     margin-bottom: $spacing-unit * 0.6;
+
+    @include media-query($on-palm) {
+      @include relative-font-size(0.85);
+      margin-bottom: $spacing-unit * 0.4;
+    }
   }
 
   em {
@@ -254,6 +303,10 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
   text-align: center;
+
+  @include media-query($on-palm) {
+    padding: $spacing-unit * 0.6 0;
+  }
 }
 
 .footer-text {
@@ -330,6 +383,10 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+
+  @include media-query($on-palm) {
+    padding: $spacing-unit * 0.6 0;
+  }
 }
 
 .page-heading {
@@ -346,6 +403,10 @@
 
   > li {
     margin-bottom: $spacing-unit;
+
+    @include media-query($on-palm) {
+      margin-bottom: $spacing-unit * 0.6;
+    }
   }
 }
 
@@ -366,6 +427,10 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+
+  @include media-query($on-palm) {
+    margin-bottom: $spacing-unit * 0.6;
+  }
 }
 
 .post-title {
@@ -380,6 +445,10 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+
+  @include media-query($on-palm) {
+    margin-bottom: $spacing-unit * 0.6;
+  }
 
   h2 {
     @include relative-font-size(2);
