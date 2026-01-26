@@ -114,9 +114,10 @@
   padding-right: $spacing-unit;
 
   @include media-query($on-palm) {
-    margin-bottom: 2px;
+    flex: none;
+    margin-bottom: 0;
     padding-right: 0;
-    @include relative-font-size(0.85);
+    @include relative-font-size(0.8);
   }
 }
 
@@ -126,8 +127,12 @@
   @include relative-font-size(0.95);
 
   @include media-query($on-palm) {
-    @include relative-font-size(0.9);
-    line-height: 1.5;
+    @include relative-font-size(0.88);
+    line-height: 1.45;
+
+    p, ul, ol {
+      margin-bottom: 0;
+    }
   }
 
   strong {
