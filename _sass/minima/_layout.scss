@@ -83,7 +83,7 @@
   margin: $spacing-unit * 2 auto 0;
 
   @include media-query($on-palm) {
-    margin-top: $spacing-unit;
+    margin-top: $spacing-unit * 0.5;
   }
 }
 
@@ -101,8 +101,8 @@
   @include media-query($on-palm) {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: $spacing-unit * 0.5;
-    padding-bottom: $spacing-unit * 0.5;
+    margin-bottom: $spacing-unit * 0.3;
+    padding-bottom: $spacing-unit * 0.3;
   }
 }
 
@@ -114,8 +114,9 @@
   padding-right: $spacing-unit;
 
   @include media-query($on-palm) {
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     padding-right: 0;
+    @include relative-font-size(0.85);
   }
 }
 
@@ -123,6 +124,11 @@
   flex: 1;
   line-height: 1.6;
   @include relative-font-size(0.95);
+
+  @include media-query($on-palm) {
+    @include relative-font-size(0.9);
+    line-height: 1.5;
+  }
 
   strong {
     color: $text-color;
